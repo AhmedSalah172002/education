@@ -1,0 +1,17 @@
+@import "../scss/reset";
+:root{
+    --green-color: #0eb582;
+}
+body{
+    &::-webkit-scrollbar {
+        width: 12px;
+      }
+      &::-webkit-scrollbar-thumb {
+        background-color: var(--green-color);
+        border-radius: 0;
+      }
+    user-select: none;
+    scroll-behavior: smooth;
+    
+}
+
